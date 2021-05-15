@@ -20,7 +20,7 @@ function findBook(){
             wrapperDiv. className = "row";
             
             var div_image = document.createElement('div');
-            div_image.className = "col-md-3 bottom-margin";
+            div_image.className = "col-md-3 img-style";
             var image = document.createElement('img');
             image.className = "mr-3 img-responsive";
             image.src = current_book.volumeInfo.imageLinks.thumbnail;
@@ -28,14 +28,14 @@ function findBook(){
             
             
 
-            // creating div with a class of media-body
+            // creating div 
             var div = document.createElement('div');
             div.className = "col-md-5";
             
 
             // displaying title
             var header = document.createElement('h5');
-            header.className = "mt-0";           
+            header.className = "mt-0";
             header.innerHTML = current_book.volumeInfo.title;
 
             // displaying author
