@@ -5,7 +5,7 @@ const exphbs =  require('express-handlebars');
 
 //initialize the application with express()
 const app = express();
-const port = process.env.port || 3280;
+const port = process.env.PORT || 3280;
 
 //express module has a method called engine()
 // we name the handlebars as handlebars and set the default layout of the handlebars to the main page.
