@@ -1,7 +1,13 @@
-.bottom-margin {    
+h1{    
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .outer-div{
     margin-top: 100px;   
+}
+body{
+	background-color:  antiquewhite;
+	font-family: Arial;
+	font-size: 15px;
 }
